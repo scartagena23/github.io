@@ -139,3 +139,10 @@ body {
 #footer a:hover {
     color: #671111;
 }
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-left: 400px;
+}
