@@ -5,9 +5,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-    background: #f2f0eb url(images/bg.png);
+    background: #f2f0eb url(images/ba.jpg);
     font: 16px Helvetica, Arial, Sans-Serif;
-    color: #636363;
+    color: lightgray;
     line-height: 24px;
 }
 
@@ -16,59 +16,10 @@ body {
     margin: 0 auto;
 }
 
-#logo {
-    margin: 10px auto 0 auto;
-    position: relative;
-    width: 183px;
-}
-
-ul#nav {
-    width: 940px;
-    list-style: none;
-    overflow: hidden;
-    margin: -134px auto 25px auto;
-}
-
-ul#nav li {
-    width: 126px;
-    height: 33px;
-    float: left;
-    padding: 13px 0 0 0;
-    background: url(images/nav-bg.png);
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-ul#nav li:nth-child(1) {
-    margin: 0 60px 0 0;
-}
-
-ul#nav li:nth-child(2) {
-    margin: 0 316px 0 0;
-}
-
-ul#nav li:nth-child(3) {
-    margin: 0 60px 0 0;
-}
-
-ul#nav li:nth-child(4) {
-    margin: 0;
-}
-
-ul#nav li a {
-    color: #616369;
-    text-decoration: none;
-}
-
-ul#nav li a:hover {
-    color: #a12121;
-}
 
 #header {
     height: 244px;
     padding: 52px 0 0 57px;
-    background: url(images/home-header.jpg);
 }
 
 #header h1 {
@@ -88,17 +39,16 @@ ul#nav li a:hover {
     text-shadow: 0px 3px 3px #494949;
 }
 
-#header p.btn a {
+ #header p.btn a {
     display: block;
     width: 225px;
     height: 50px;
     overflow: hidden;
     background: url(images/home-header-btn.jpg);
-    text-indent: -9999px;
+    text-indent: -9999px; 
 }
 
 #content {
-    background: url(images/content-bg.png) repeat-y;
     padding: 57px 69px 50px 69px;
     overflow: hidden;
 }
@@ -153,8 +103,11 @@ ul#nav li a:hover {
     text-decoration: none;
 }
 
+#content-contact {
+    padding: 200px 69px 50px 69px;
+}
+
 #footer {
-    background: url(images/footer-bg.png) no-repeat;
     padding: 40px 0 0 0;
     overflow: hidden;
     margin: 0 0 30px 0;
@@ -164,7 +117,7 @@ ul#nav li a:hover {
     font-size: 12px;
     float: left;
     margin: 0 0 0 30px;
-    color: #b8b6b2;
+    color: #f2f0eb;
 }
 
 #footer p#back-top {
