@@ -19,7 +19,12 @@ body {
 
 #header {
     height: 244px;
-    padding: 52px 0 0 57px;
+    padding: 300px 0 0 57px;
+}
+
+#header-index {
+    height: 244px;
+    padding: 300px 0 0 57px;
 }
 
 #header h1 {
@@ -49,7 +54,12 @@ body {
 }
 
 #content {
-    padding: 57px 69px 50px 69px;
+    padding: 205px 69px 50px 69px;
+    overflow: hidden;
+}
+
+#content-index {
+    padding: 205px 69px 50px 69px;
     overflow: hidden;
 }
 
@@ -96,7 +106,7 @@ body {
     width: 183px;
     height: 29px;
     padding: 7px 0 0 0;
-    background: url(images/see-more-bg.png);
+
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -127,10 +137,10 @@ body {
 }
 
 #footer a {
-    color: #a12121;
+    color: lightgray;
     text-decoration: none;
 }
 
 #footer a:hover {
-    color: #671111;
+    color: red;
 }
