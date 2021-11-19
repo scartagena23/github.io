@@ -1,4 +1,4 @@
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form {
     margin: 0;
     padding: 0;
     border: 0;
@@ -54,11 +54,6 @@ body {
 }
 
 #content {
-    padding: 205px 69px 50px 69px;
-    overflow: hidden;
-}
-
-#content-index {
     padding: 205px 69px 50px 69px;
     overflow: hidden;
 }
@@ -137,10 +132,10 @@ body {
 }
 
 #footer a {
-    color: lightgray;
+    color: #a12121;
     text-decoration: none;
 }
 
 #footer a:hover {
-    color: red;
+    color: #671111;
 }
